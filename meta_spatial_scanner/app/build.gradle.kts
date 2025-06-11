@@ -12,6 +12,7 @@ plugins {
 android {
   namespace = "com.meta.pixelandtexel.scanner"
   compileSdk = 35
+  ndkVersion = rootProject.extra["ndkVersion"] as String
 
   defaultConfig {
     applicationId = "com.meta.pixelandtexel.scanner"
@@ -23,8 +24,6 @@ android {
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-    // Update the ndkVersion to the right version for your app
-    ndkVersion = "28.0.13004108"
 
     // Pass our aws credentials to the BuildConfig
     val awsRegion = getLocalProperty("AWS_REGION", project)
