@@ -49,13 +49,17 @@ fun ObjectInfoView(
       if (painter != null) {
         Spacer(Modifier.height(24.dp))
         Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize()) {
-          Image(
-              painter = painter,
-              contentDescription = title,
-              contentScale = ContentScale.FillWidth,
-              modifier =
-                  Modifier.fillMaxWidth()
-                      .clip(RoundedCornerShape(SpatialTheme.shapes.medium.topEnd)))
+            Image(
+                painter = painter,
+                contentDescription = title,
+                contentScale = ContentScale.Crop,
+                modifier =
+                    Modifier
+                        .fillMaxWidth(0.6f)
+                        .clip(RoundedCornerShape(16.dp))
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
         }
       }
 

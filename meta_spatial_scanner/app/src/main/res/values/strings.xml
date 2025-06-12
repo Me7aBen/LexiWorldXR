@@ -2,7 +2,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Llama query template -->
     <string name="object_query_template">
-        Briefly describe the {{object_name}} in this image. Specifically, provide technical details or information about its construction, but do not guess details which are not apparent in the photo.
+        Briefly describe the {{object_name}} in this image. After the description, provide the translation for the object "{{object_name}}" into the following languages, each on a new line:
+        - Spanish:
+        - French:
+        - German:
     </string>
 
     <!-- Camera status -->
