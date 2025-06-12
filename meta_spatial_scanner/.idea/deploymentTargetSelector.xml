@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="Scanner_App.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-06-11T22:18:48.485505Z">
+        <DropdownSelection timestamp="2025-06-12T02:39:09.062056Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=2G0YC5ZGC1032X" />

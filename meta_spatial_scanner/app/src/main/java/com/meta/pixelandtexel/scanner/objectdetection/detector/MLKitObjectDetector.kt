@@ -62,7 +62,7 @@ class MLKitObjectDetector(context: Context) : IObjectDetectorHelper {
           CustomObjectDetectorOptions.Builder(localModel)
               .setDetectorMode(ObjectDetectorOptions.STREAM_MODE)
               .setMaxPerObjectLabelCount(1) // we're only using the first one anyway
-              .setClassificationConfidenceThreshold(0.65f)
+              .setClassificationConfidenceThreshold(0.30f)
               .enableMultipleObjects()
               .enableClassification()
               .build()
