@@ -13,10 +13,12 @@
 bin/
 gen/
 out/
-release/
+#  Uncomment the following line in case you need and you don't have the release build type files in your app
+# release/
 
 # Gradle files
 .gradle/
+gradle/
 build/
 
 # Local configuration file (sdk path, etc)
@@ -36,6 +38,7 @@ captures/
 
 # IntelliJ
 *.iml
+.idea/
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -55,6 +58,7 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+.cxx/
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
@@ -80,3 +84,40 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+apikey.properties
+meta_spatial_scanner/documentation/media/9-slice-shader.gif
+
+meta_spatial_scanner/documentation/media/9-slice-source.png
+
+meta_spatial_scanner/documentation/media/banner.png
+
+meta_spatial_scanner/documentation/media/curated-object.gif
+
+meta_spatial_scanner/documentation/media/debug-camera-view.gif
+
+meta_spatial_scanner/documentation/media/diagram-0-object-detection-code-architecture.png
+
+meta_spatial_scanner/documentation/media/diagram-1-passthrough-camera-api.png
+
+meta_spatial_scanner/documentation/media/diagram-2-mlkit-object-tracking.png
+
+meta_spatial_scanner/documentation/media/diagram-3-llama-vision-invocation.png
+
+meta_spatial_scanner/documentation/media/help-screen.png
+
+meta_spatial_scanner/documentation/media/isdk-interaction.gif
+
+meta_spatial_scanner/documentation/media/live-streaming.gif
+
+meta_spatial_scanner/documentation/media/llama-invocation.gif
+
+meta_spatial_scanner/documentation/media/object-detection.gif
+
+meta_spatial_scanner/documentation/media/obs-source-settings.png
+
+meta_spatial_scanner/documentation/media/tip-screen.png
+
+meta_spatial_scanner/documentation/media/user-flow.png
+
+meta_spatial_scanner/documentation/media/wrist-attached-controls.gif
