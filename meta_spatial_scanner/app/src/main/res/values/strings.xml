@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Llama query template -->
     <string name="object_query_template">
-        Briefly describe the {{object_name}} in this image. After the description, provide the translation for the object "{{object_name}}" into the following languages, each on a new line:
-        - Spanish:
-        - French:
-        - German:
-    </string>
+    Give a one-sentence, very short description of the {{object_name}} in this image.
+    Then, for the object "{{object_name}}", provide the following information for each of the 8 main languages listed below. Format each language as a separate block.
 
-    <!-- Camera status -->
+    For each language, provide:
+    1. The translation.
+    2. A simple example sentence using the translation.
+    3. A simple, phonetic pronunciation guide in parentheses.
+
+    The languages are:
+    - English
+    - Spanish
+    - French
+    - German
+    - Mandarin Chinese
+    - Hindi
+    - Arabic
+    - Portuguese
+</string>
+
+    <string name="app_name">LexiWorld Educator</string>
+
     <string name="camera_status_off">Paused</string>
     <string name="camera_status_on">Scanning</string>
 
-    <!-- Buttons -->
     <string name="btn_got_it">Got It</string>
-    <string name="btn_continue">Continue</string>
-    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_continue">Let\'s Start!</string> <string name="btn_dismiss">Dismiss</string>
     <string name="btn_generate_objects">Generate Objects</string>
 
-    <!-- Content descriptions -->
     <string name="camera_controls_button_description">Play/pause button</string>
     <string name="help_button_description">Help button</string>
     <string name="refrigerator_image_description">Refrigerator</string>
     <string name="dot">Dot</string>
 
-    <!-- Welcome panel -->
     <string name="notice">
-        This application uses generative AI to describe the content of images, and those responses may be inaccurate or inappropriate. [Learn More](https://www.facebook.com/privacy/guide/genai/). Your queries and the generative AI responses are not retained by Meta.
+        Welcome to LexiWorld, your Mixed Reality language teacher. Look directly at any object to scan it and see its name in multiple languages.
     </string>
-    <string name="camera_controls_title">Camera Controls</string>
+    <string name="camera_controls_title">How It Works</string>
     <string name="camera_controls_1">
-        Look at your left palm to activate camera scanner controls.
+        1. Gaze at an object to highlight it.
     </string>
     <string name="camera_controls_2">
-        Press play to begin the scan, and pause to end scanning.
+        2. The object will be identified and translated automatically.
     </string>
 
-    <!-- Tips -->
-    <string name="select_object_title">Select Object</string>
-    <string
-    name="select_object_copy"
-  >Select an object to learn more information about it.</string>
-    <string name="no_objects_detected_title">No Objects Detected</string>
-    <string
-    name="no_objects_detected_body"
-  >Try moving to a different room or location, or select one of the generated objects.</string>
-    <string name="find_objects_title">Find Curated Objects</string>
-    <string
-    name="find_objects_body"
-  >Look for one of the curated objects: a phone, fridge, or television. Or select one of the generated objects.</string>
+    <string name="select_object_title">Select an Object</string>
+    <string name="select_object_copy">Gaze at a highlighted object to see its description and translations.</string>
+
+    <string name="no_objects_detected_title">Point to Learn</string>
+    <string name="no_objects_detected_body">Point your headset at an object so it can be identified and translated instantly.</string>
+
+    <string name="find_objects_title">Find Objects</string>
+    <string name="find_objects_body">Look for an object to scan and learn its name in a new language.</string>
+
     <string name="help_title">Help</string>
     <string name="help_body">
-        You can scan your surroundings to identify objects with the play button. Select a detected object to learn more about it, or choose from generated objects.
+        You can scan your surroundings to identify objects. Gaze at a detected object to learn more about it, including its name in several languages.
     </string>
 
-    <!-- Curated objects copy -->
     <string name="fridge_body_copy">
         ## More Room. More Organization. More Fun!\n\n
         - Stay Connected: Share photos, stream music or video, read recipes, and more all from your fridge\'s AI companion.\n

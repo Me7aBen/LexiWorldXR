@@ -238,6 +238,7 @@ class TipManager(activity: AppSystemActivity, generateCuratedObjects: () -> Unit
       }
 
       UserEvent.DISMISSED_INFO_PANEL -> {
+        /*
         if (!hasUserSelectedCuratedObject) {
           // user hasn't found curated object, show tip to look for or select from curated objects
           findObjectsPanelEntity =
@@ -245,7 +246,7 @@ class TipManager(activity: AppSystemActivity, generateCuratedObjects: () -> Unit
                   R.integer.find_objects_tip_panel_id,
                   Transform(getTipSpawnPose()),
                   Grabbable(type = GrabbableType.PIVOT_Y))
-        }
+        }*/
       }
     }
   }
